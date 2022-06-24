@@ -1,8 +1,8 @@
 document.write("<h1>Basic Calculator</h1>");
 
-const num1 = parseInt(prompt("Enter first number: "));
+const num1 = parseFloat(prompt("Enter first number: "));
 const operator = prompt("Enter operator +, -, * or / : ");
-const num2 = parseInt(prompt("Enter second number: "));
+const num2 = parseFloat(prompt("Enter second number: "));
 
 let result;
 if (isNaN(num1) || isNaN(num2)) {
